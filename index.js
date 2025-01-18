@@ -7,8 +7,6 @@ function main(){
 }
 
 main();
-main();
-main();
-
+console.log("This is a new changes");
 
 
