@@ -35,10 +35,17 @@ function multiplyBy(n){
         return m * n
     }
 }
-
-
 let mulBy2 = multiplyBy(2)
 console.log(mulBy2(5))
 console.log(mulBy2(15))
 console.log(mulBy2(7))
 console.log(mulBy2(8))
+
+function divideBy(n){
+    return (m)=>{
+        return m / n
+    }
+}
+let divBy2 = divideBy(2)
+console.log(divBy2(5))
+console.log(divBy2(15))
