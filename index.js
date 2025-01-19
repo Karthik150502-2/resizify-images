@@ -40,3 +40,5 @@ function multiplyBy(n){
 let mulBy2 = multiplyBy(2)
 console.log(mulBy2(5))
 console.log(mulBy2(15))
+console.log(mulBy2(7))
+console.log(mulBy2(8))
