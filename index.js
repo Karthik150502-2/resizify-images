@@ -49,3 +49,12 @@ function divideBy(n){
 let divBy2 = divideBy(2)
 console.log(divBy2(5))
 console.log(divBy2(15))
+
+
+function powerOf(n){
+    return (m)=>{
+        return Math.pow(m,n)
+    }
+}
+
+let powOf2=  powerOf(2)
