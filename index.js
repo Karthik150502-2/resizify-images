@@ -26,6 +26,7 @@ console.log(fib())
 console.log(fib())
 console.log(fib())
 console.log(fib())
+console.log(fib())
 
 
 
