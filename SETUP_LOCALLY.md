@@ -5,8 +5,6 @@ How to setup Graphite and Github
 
 
 
-
-
 Part 1 – Install Graphite in the CLI and Authenticate Graphite
 Prerequisite:
 1)	As of v1.0.0, Graphite requires a minimum git --version of 2.38.0.
@@ -51,7 +49,7 @@ a)	Setting up your App with gadget.
 
 OR
 
-b) Cloning already existing project from Gadget.
+b) Cloning the development environment already existing project from Gadget. PS: Avoid cloning from production environment.
 1. Go to your gadget app, and select the project you want to clone
 ![image](https://github.com/user-attachments/assets/7afb41d8-2169-4a36-9e8a-91d32b829909)
 
@@ -64,15 +62,14 @@ b) Cloning already existing project from Gadget.
 
 4. Now you have your new gadget environment to work with.
 5.	You need to copy all the setting from your cloned environment, since the configurations would be reset when you clone a new environment.
--	The environment variables.
+-	The environment variables, go to the gadget development env of your app, and from settings > Environment variables, copy the variables to your environment.
+
+
 -	The Shopify app connections.
 -	Any connections if present.
-You need to the partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
-
-
-
-
-
+You need a partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
+-  Except for "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", reference: heymantle.com/docs/
+    
 
 Part 3 - Connect your gadget app with the partner’s app.
 1. Go to partners dashboard, and select Apps, All Apps from the menu on the left in partners dashboard.
@@ -95,7 +92,7 @@ Part 3 - Connect your gadget app with the partner’s app.
 ![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
 
 
-You have to follow Step 10, 11 and 12 only when you are createing your own app, when you clone from an existing app these settings are already set for you.
+You have to follow Step 10, 11 and 12 only when you are creating your own app, when you clone from an existing app these settings are already set for you.
 
 10. You will be sent to API scopes and data models configurations page, this is where you will need to select the Data models for which you need access from your Merchant’s admin account.
 11. For now just, select Products with read scope and product from the options below.
@@ -138,13 +135,60 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 
 
+Part - 3 Cloning the repo from Github and Steps to create a branches and and Pull Requests using Graphite locally.
 
-Part 3 – Working with Gadget locally.
+Clone the repo from the github.
+1. git clone https://github.com/Shopvana/Resizify.git
+2. git branch -av // Lists out all the remote branches present in the repo.
+3. git checkout -b dev origin/dev //Checkout and track the remote branch from thge github
+4. git branch //verify that you are in the remote dev branch 
+5. git pull origin dev //Checkeout the latest changes in the remote dev branch if need be.
+   
+Using Graphite locally to create PR's and Stack PRs
+1. Creating PR's locally from Graphite
+   a) gt checkout //Lists out all the repos that you have locally, and you can select the branch you need to get on interactively from the CLI, and always start from dev branch, when you have to new feature to work on that is not related to one another
+    
+   b) There are two scenarios, based on which you have to decide wether you need to create a separate branch or a Stack with branches having changes corelating to one another.
+
+       i) When to create separate branches? 
+	   When you have to new feature to work on that is completely not related to one another/ is a independent feature.
+            a) Checkout to dev branch and make changes upon the dev branch. 
+                - gt checkout        [Select the dev branch with up/ down keys.]
+                - Make the changes for the feature you are working on, and
+                - gt add        [Add the modified files, or get add --all to add all modified files at once.]
+                - gt create -m "Message about the feature" name_of_the_branch        [After making the change and running this command, Graphite will create a completely new branch for you with the changes you have made from the dev branch.]
+                - gt submit        [Submit the PR.]
+	        When these PRs are merged, they are merged to the dev branch of the repo, since you checkout from the dev branch initially.
+       ii) When to create a Stack? 
+	   When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
+	   To Stack is to create a list of branches, that are build upon one another. You can easily navigate in your stack of branches, with gt up, gt down, to reach to the old and new changes you have made.
+	        a) Checkout to dev branch and make changes upon the dev branch, initially,
+			    - Make the changes.
+			    - gt add      [Add the files to which you have made the changes.]
+			    - gt create -m "Message 1" branch_name_1
+	        b) Adding a new Stack.
+			    - After gt create, now you have a new branch, for the changes you have made recently.
+			    - Make some more changes based on the need.
+			    - gt add      [Add the files to which you have made the changes.]
+			    - gt create -m "Message 2" branch_name_2
+            c) You can follow this steps for adding more stacks on one another.
+			d) And finally, submit the PR. 
+			    - gt submit      [To submit all the PRs]
+  
+
+
+Part 4 – Working with Gadget locally, and Syncing with Gadget and local code. 
+
+After you have cloned the repo from github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa.
+
 Steps:
 1. To bring down the code from gadget locally.
-ggt dev ./<app-name> --app=<app-name> --env=<gadget-development-env-name>
 
-Now you will have the code locally, with hot module reload started, and any changes you make locally will reflect in gadget, and any changes you make in gadget will reflect locally, in both the cases  the app in the changes will reflect in admin’s dashboard page where you can see your app.
+sync command;
+ggt dev ./<app-name> --app=<app-name> --env=<gadget-development-env-name> --allow-unknown-directory
 
+This command brings start a hot module reload for you code in local -> Gadget code, and Gadget code -> local, meaning, after running this command, whatever changes you make in your local code, will reflect in your Gadget repo, and vice verse. With changes finally reflecting in your Admin dashboard app where you have your app installed. 
 
+Sometimes, when you have conflicting changes in your Gadget repo, and local code, after running the sync command,
 
+The Graphite CLI prompts you to keep the local change or to keep the changes from Gadget repo, you can choose accordingly.
