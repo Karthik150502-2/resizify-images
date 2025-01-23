@@ -80,8 +80,11 @@ Part 3 - Connect your gadget app with the partner’s app.
 
 ![image](https://github.com/user-attachments/assets/e8f6fbff-a1d8-43a8-a80c-d0f41503e815)
 
-3.	Click on “Create App” button
-4.	Click on manually “Create App manually”
+![image](https://github.com/user-attachments/assets/24330a58-e859-4fff-bcd5-baef14b4c732)
+
+
+3. Click on “Create App” button
+4. Click on manually “Create App manually”
 ![image](https://github.com/user-attachments/assets/6aa193d3-e59c-4c00-804c-cf5e8f197db0)
 
 5.	Give your app a name.
