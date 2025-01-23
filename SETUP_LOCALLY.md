@@ -94,11 +94,14 @@ Part 3 - Connect your gadget app with the partner’s app.
 9. Click on continue
 ![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
 
+
+You have to follow Step 10, 11 and 12 only when you are createing your own app, when you clone from an existing app these settings are already set for you.
+
 10. You will be sent to API scopes and data models configurations page, this is where you will need to select the Data models for which you need access from your Merchant’s admin account.
 11. For now just, select Products with read scope and product from the options below.
 ![image](https://github.com/user-attachments/assets/53453b02-3b24-417f-ac4f-b7fdb3033477)
-
 12. Now click on confirm.
+
 13. A dialog box with, an app url and redirection url will appear, copy them both.
 ![image](https://github.com/user-attachments/assets/43919649-eccb-4b56-8690-abf73071efbf)
 
