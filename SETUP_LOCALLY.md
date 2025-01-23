@@ -84,8 +84,6 @@ Part 3 - Connect your gadget app with the partner’s app.
 
 ![image](https://github.com/user-attachments/assets/24330a58-e859-4fff-bcd5-baef14b4c732)
 
-![image](https://github.com/user-attachments/assets/6aa193d3-e59c-4c00-804c-cf5e8f197db0)
-
 4. Give your app a name.
 5. Copy the Client ID and Client Secret you see on the screen, we will be needing it later.
 6. Go back to your gadget app
