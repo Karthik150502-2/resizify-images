@@ -55,7 +55,8 @@ b) Cloning already existing project from Gadget.
 ![image](https://github.com/user-attachments/assets/6e82c8d2-c696-4076-931b-938104f8d6e5)
 
 3. Give it a name and chose the environment which you would like to clone, for your new environment.
-![image](https://github.com/user-attachments/assets/a084a4eb-b904-446f-bc8a-27ed0dd77215)
+![image](https://github.com/user-attachments/assets/7526ea5d-149a-40ea-84ae-0d453f8ec91c)
+
 
 4. Now you have your new gadget environment to work with.
 5.	You need to copy all the setting from your cloned environment, since the configurations would be reset when you clone a new environment.
