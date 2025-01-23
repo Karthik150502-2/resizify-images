@@ -4,6 +4,9 @@ How to setup Graphite and Github
 -	Create an Account with Gadget
 
 
+
+
+
 Part 1 – Install Graphite in the CLI and Authenticate Graphite
 Prerequisite:
 1)	As of v1.0.0, Graphite requires a minimum git --version of 2.38.0.
@@ -21,6 +24,7 @@ gt --version
 3)	Signin to Graphite and 
 -	Copy the gt auth --token <your_cli_auth_token> command shown (your CLI auth token will be pre-filled for you).
 -	Paste it in the terminal and run the command
+
 
 
 
@@ -64,6 +68,10 @@ b) Cloning already existing project from Gadget.
 -	The Shopify app connections.
 -	Any connections if present.
 You need to the partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
+
+
+
+
 
 
 Part 3 -	Connect your gadget app with the partner’s app.
