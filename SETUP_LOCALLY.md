@@ -33,19 +33,25 @@ Steps:
 npm install -g ggt@latest
 	
 a)	Setting up your App with gadget.
-1.	Click on “New App” button
-2.	Select “Shopify App” and click on “Next”
-3.	Give your app a unique name, for your app domain.
-4.	Select the template “Shopify embedded react app”
-5.	Select language Javascript/ Typescript
+1. Click on “New App” button
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/9bc7ff4f-3da0-42f0-9f8b-48e1415d06d8" />
+
+2. Select “Shopify App” and click on “Next”
+![image](https://github.com/user-attachments/assets/29eae9fc-7a5e-4ef6-980f-587f6d462cf9)
+
+3. Give your app a unique name, for your app domain.
+4. Select the template “Shopify embedded react app”
+5. Select language Javascript/ Typescript
+![image](https://github.com/user-attachments/assets/4123ca22-090f-4d5a-af08-d3a5eae150ec)
+
 
 OR
 
 b) Cloning already existing project from Gadget.
-1.	Go to your gadget app, and select the project.
+1. Go to your gadget app, and select the project you want to clone
 ![image](https://github.com/user-attachments/assets/7afb41d8-2169-4a36-9e8a-91d32b829909)
 
-2. From the navbar, click on the “Create a new Development environment“.
+2. From the navbar, click on the “Create a new Development Environment“.
 ![image](https://github.com/user-attachments/assets/6e82c8d2-c696-4076-931b-938104f8d6e5)
 
 3. Give it a name and chose the environment which you would like to clone, for your new environment.
