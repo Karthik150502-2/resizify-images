@@ -74,57 +74,59 @@ You need to the partner’s app which will reflect the changes you make in this 
 
 
 
-Part 3 -	Connect your gadget app with the partner’s app.
-1.	Go to partners dashboard, and select Apps from the menu on the left in partners dashboard.
+Part 3 - Connect your gadget app with the partner’s app.
+1. Go to partners dashboard, and select Apps, All Apps from the menu on the left in partners dashboard.
+![image](https://github.com/user-attachments/assets/6051105b-0f12-46fd-96d2-35a06cad3f41)
+
 ![image](https://github.com/user-attachments/assets/e8f6fbff-a1d8-43a8-a80c-d0f41503e815)
 
-2.	Click on “Create App” button
-3.	Click on manually “Create App manually”
+3.	Click on “Create App” button
+4.	Click on manually “Create App manually”
 ![image](https://github.com/user-attachments/assets/6aa193d3-e59c-4c00-804c-cf5e8f197db0)
 
-4.	Give your app a name.
-5.	Copy the Client ID and Client Secret you see on the screen, we will be needing it later.
-6.	Go back to your gadget app
-7.	In the Home page of your gadget app, click on the Connect shopify button
+5.	Give your app a name.
+6.	Copy the Client ID and Client Secret you see on the screen, we will be needing it later.
+7.	Go back to your gadget app
+8.	In the Home page of your gadget app, click on the Connect shopify button
 ![image](https://github.com/user-attachments/assets/f5431a26-f6ae-4615-9722-46855c49ea76)
 
-8.	Scroll down, and you will two input boxes to enter Client Id, and the Client Secret. Paste the Client Id and the Client secret that you had copied before here.
-9.	Click on continue
+9.	Scroll down, and you will two input boxes to enter Client Id, and the Client Secret. Paste the Client Id and the Client secret that you had copied before here.
+10.	Click on continue
 ![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
 
-10.	You will be sent to API scopes and data models configurations page, this is where you will need to select the Data models for which you need access from your Merchant’s admin account.
-11. For now just, select Products with read scope and product from the options below.
+11.	You will be sent to API scopes and data models configurations page, this is where you will need to select the Data models for which you need access from your Merchant’s admin account.
+12. For now just, select Products with read scope and product from the options below.
 ![image](https://github.com/user-attachments/assets/53453b02-3b24-417f-ac4f-b7fdb3033477)
 
-12.	Now click on confirm.
-13.	A dialog box with, an app url and redirection url will appear, copy them both.
+13.	Now click on confirm.
+14.	A dialog box with, an app url and redirection url will appear, copy them both.
 ![image](https://github.com/user-attachments/assets/43919649-eccb-4b56-8690-abf73071efbf)
 
-14.	Go back to you partners dashboard, and select the app that you had created.
-15.	From the options in menu at left, click on configurations.
-16. In URLs, section, paste the App url and the redirection url in the input boxes given.
+15.	Go back to you partners dashboard, and select the app that you had created.
+16.	From the options in menu at left, click on configurations.
+17. In URLs, section, paste the App url and the redirection url in the input boxes given.
 ![image](https://github.com/user-attachments/assets/f5a34540-0e40-4024-bb98-725a8fa3c722)
 
-17.	And then click on Save and Release on the top.
-18.	Now Click, on the overview from the options in the left menu.
-19.	And from the “Test your app” section click on “Select store” button.
+18.	And then click on Save and Release on the top.
+19.	Now Click, on the overview from the options in the left menu.
+20.	And from the “Test your app” section click on “Select store” button.
 ![image](https://github.com/user-attachments/assets/7d9a5eb1-3415-4d48-af0d-aaad92377d91)
 
     
-20.	Click on the create a new store in the top.
-21.	And give a name for the store
-22.	For the Build version, select “Developer preview”, and from the options given, select 
+21.	Click on the create a new store in the top.
+22.	And give a name for the store
+23.	For the Build version, select “Developer preview”, and from the options given, select 
 “Extended Variants”.
 ![image](https://github.com/user-attachments/assets/9dce17fd-f666-44fd-9377-64bb44149f64)
 
 
-23.	And in the “Data and configurations”, section, select “Start with sample data”.
+24.	And in the “Data and configurations”, section, select “Start with sample data”.
 ![image](https://github.com/user-attachments/assets/93e6d084-8eb1-49ea-b463-e0618920b3a5)
 
-24.	Click on create development store.
+25.	Click on create development store.
 Now you have a developmental store for yourself, where you can test and play around with your products and test it thoroughly.
 
-25.	Click on the Apps from the menu on the left, and select your app, and from the App dashboard, click on configurations. If you scroll down in the configurations page, you would see a Dropdown for Event version, you must select the same version that is listed for you gadget app’s settings > plugins > shopify > API Version.
+26.	Click on the Apps from the menu on the left, and select your app, and from the App dashboard, click on configurations. If you scroll down in the configurations page, you would see a Dropdown for Event version, you must select the same version that is listed for you gadget app’s settings > plugins > shopify > API Version.
 
 ![image](https://github.com/user-attachments/assets/ff9a045e-42d2-416a-bd85-1f0d3929a661)
 
