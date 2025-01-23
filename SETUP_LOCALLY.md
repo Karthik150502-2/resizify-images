@@ -136,3 +136,15 @@ Now you have a developmental store for yourself, where you can test and play aro
 ![image](https://github.com/user-attachments/assets/d7e48797-0cbf-4be8-a381-f295c18a158d)
 
 
+
+
+
+Part 3 – Working with Gadget locally.
+Steps:
+1. To bring down the code from gadget locally.
+ggt dev ./<app-name> --app=<app-name> --env=<gadget-development-env-name>
+
+Now you will have the code locally, with hot module reload started, and any changes you make locally will reflect in gadget, and any changes you make in gadget will reflect locally, in both the cases  the app in the changes will reflect in admin’s dashboard page where you can see your app.
+
+
+
