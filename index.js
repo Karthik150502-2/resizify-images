@@ -61,3 +61,4 @@ let powOf2 = powerOf(2)
 
 console.log("Hello, i am Cristiano Ronaldo")
 console.log(1)
+console.log(2)
