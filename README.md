@@ -194,7 +194,8 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 23. And in the **“Data and configurations”**, section, select **“Start with sample data”**.
 
-![image](https://github.com/user-attachments/assets/93e6d084-8eb1-49ea-b463-e0618920b3a5)
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/0b4f512e-445e-4408-9ab8-9e65c69e5f75)
+
 
 24. Click on create development store.
 Now you have a developmental store for yourself, where you can test and play around with your products and test it thoroughly.
