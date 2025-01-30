@@ -201,7 +201,7 @@ git clone https://github.com/Shopvana/Resizify.git
 git branch -av
 ``` 
 
-3. Checkout and track the remote branch from thge github 
+3. Checkout and track the remote branch from the github 
 
 ```sh
 git checkout -b dev origin/dev
@@ -213,7 +213,7 @@ git checkout -b dev origin/dev
 git branch
 ``` 
 
-5. Checkeout the latest changes in the remote dev branch if need be.
+5. Pull the latest changes in the remote dev branch if need be.
 
 ```sh
 git pull origin dev 
@@ -351,7 +351,7 @@ gt submit
 
 
 
-## Part IV – Working with Gadget locally, and Syncing with Gadget and local code. 
+## Part V – Working with Gadget locally, and Syncing with Gadget and local code. 
 
 After you have cloned the repo from github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa, as you make changes ni either one of them.
 
