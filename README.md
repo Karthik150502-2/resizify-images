@@ -57,7 +57,8 @@ npm install -g ggt@latest
 2. Setting up your App with gadget,
 Go to Gadget.dev, and after signing up, Click on “New App” button
 
-<img width="938" alt="image" src="https://github.com/user-attachments/assets/9bc7ff4f-3da0-42f0-9f8b-48e1415d06d8" />
+![image](https://github.com/user-attachments/assets/41dc2ae7-0c64-479b-a037-2c2fa97b48a3)
+
 
 3. Select “Shopify App” and click on “Next”
 
