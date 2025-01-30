@@ -202,7 +202,8 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 25. Click on the Apps from the menu on the left, and select your app, and from the App dashboard, click on configurations. If you scroll down in the configurations page, you would see a Dropdown for Event version, you must select the same version that is listed for you gadget app’s **settings > plugins > shopify > API Version**.
 
-![image](https://github.com/user-attachments/assets/ff9a045e-42d2-416a-bd85-1f0d3929a661)
+![image](https://github.com/user-attachments/assets/b0c6dd5a-55ee-45bb-b062-461abdb4eed7)
+
 
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/6c0a8e43-f92e-4d43-8a62-e4a0f70c0d71" />
 
