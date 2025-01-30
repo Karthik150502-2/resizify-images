@@ -188,7 +188,6 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 22. For the Build version, select **“Developer preview”**, and from the options given, select 
 **“Extended Variants”**.
 
-![image](https://github.com/user-attachments/assets/9dce17fd-f666-44fd-9377-64bb44149f64)
 
 ![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/e4a284b0-3601-4816-aff6-4b7730a4dada)
 
