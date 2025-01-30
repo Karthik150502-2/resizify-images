@@ -190,6 +190,9 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 ![image](https://github.com/user-attachments/assets/9dce17fd-f666-44fd-9377-64bb44149f64)
 
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/e4a284b0-3601-4816-aff6-4b7730a4dada)
+
+
 23. And in the **“Data and configurations”**, section, select **“Start with sample data”**.
 
 ![image](https://github.com/user-attachments/assets/93e6d084-8eb1-49ea-b463-e0618920b3a5)
