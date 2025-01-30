@@ -143,13 +143,11 @@ You need a partner’s app to reflect changes made in this new environment. Foll
 
 7. In the Home page of your gadget app, click on the Connect shopify button
 
-![image](https://github.com/user-attachments/assets/f5431a26-f6ae-4615-9722-46855c49ea76)
-
 8. Scroll down, and you will see two input boxes to enter Client Id, and the Client Secret. Paste the Client Id and the Client secret that you had copied before here.
 
 9. Click on continue
 
-![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
+![image](https://github.com/user-attachments/assets/f5431a26-f6ae-4615-9722-46855c49ea76)
 
 
 You have to follow Step 10, 11 and 12 only when you are creating your own app, when you clone from an existing app these settings are already set for you.
@@ -158,11 +156,11 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 11. For now just, select Products with read scope and product from the options below.
 
-![image](https://github.com/user-attachments/assets/53453b02-3b24-417f-ac4f-b7fdb3033477)
+![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
 
-12. Now click on confirm.
+13. Now click on confirm.
 
-13. A dialog box with, an app url and redirection url will appear, copy them both.
+14. A dialog box with, an app url and redirection url will appear, copy them both.
 
 ![image](https://github.com/user-attachments/assets/0266faea-6741-449f-809f-b5de1fbf1a67)
 
