@@ -233,7 +233,8 @@ gt checkout
 **There are two scenarios, based on which you have to decide wether you need to create a separate branch or a Stack of branches having changes corelating to one another.**
 
 ### Scenario 1
-**When to create separate branches?** 
+> [!NOTE]
+> **When to create separate branches?** 
 
 When you have to new feature to work on that is completely not related to one another/ is a independent feature.
 
@@ -283,7 +284,8 @@ gt submit
 
 ### Scenario 2
 
-**When to create a Stack?**
+> [!NOTE]
+>**When to create a Stack?**
 
 When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
 
