@@ -3,7 +3,7 @@
 
 ## Prerequisites:
 -	Sign in to Graphite with a Github account, [Sign Up to Grahite](https://app.graphite.dev/activate)
--	Create an Account with Gadget
+-	Create an Account with Gadget [Sign Up to Gadget](https://gadget.dev/)
 
 
 ## Part I - Install Graphite in the CLI and Authenticate Graphite
