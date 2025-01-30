@@ -2,7 +2,7 @@
 # How to setup Graphite and Github
 
 ## Prerequisites:
--	Sign in to Graphite with a Github account, [https://app.graphite.dev/activate](#sign-in-to-graphite)
+-	Sign in to Graphite with a Github account, [Sign Up to Grahite](https://app.graphite.dev/activate)
 -	Create an Account with Gadget
 
 
@@ -82,9 +82,9 @@ OR
 4. Now you have your new gadget environment to work with.
 
 5.	You need to copy all the setting from your cloned environment, since the configurations would be reset when you clone a new environment.
-- The environment variables, go to the gadget development env of your app, and from settings > Environment variables, copy the variables to your environment.
+- The environment variables, go to the gadget development env of your app, and from **settings > Environment variables**, copy the variables to your environment.
 
-- Except for "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", reference: heymantle.com/docs/
+- Except for **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, reference: [Heymantle Docc](heymantle.com/docs/)
 
 ![image](https://github.com/user-attachments/assets/6850022e-8def-4cd3-a409-ab2e2ad6b1fa)
 
@@ -232,8 +232,8 @@ gt checkout
 
 **There are two scenarios, based on which you have to decide wether you need to create a separate branch or a Stack of branches having changes corelating to one another.**
 
-### Scenario 1
-> [!NOTE]
+
+> [!IMPORTANT]
 > **When to create separate branches?** 
 
 When you have to new feature to work on that is completely not related to one another/ is a independent feature.
@@ -282,9 +282,7 @@ gt submit
 
 
 
-### Scenario 2
-
-> [!NOTE]
+> [!IMPORTANT]
 >**When to create a Stack?**
 
 When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
