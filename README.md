@@ -14,6 +14,7 @@
 ### Steps
 1)	With MacOs and Linux;
 brew install withgraphite/tap/graphite
+
 ```sh
 gt --version
 ```
@@ -21,16 +22,18 @@ gt --version
 
 2)	Install with npm;
 npm install -g @withgraphite/graphite-cli@stable
+
 ```sh
 gt --version
 ```
 
 3)	Signin to Graphite
-Copy the auth token. 
+Copy the auth token command
+
 ```sh
 gt auth --token <your_cli_auth_token>
-``` 
-command 
+```
+
 shown (your CLI auth token will be pre-filled for you). Paste it in the terminal and run the command
 
 
