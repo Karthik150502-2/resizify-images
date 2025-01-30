@@ -156,7 +156,8 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 11. For now just, select Products with read scope and product from the options below.
 
-![image](https://github.com/user-attachments/assets/4e473dac-b25c-4f81-8c2e-2dfdbc612ca2)
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/d8db8583-46fd-43cd-8ddd-4e67a66e64d3)
+
 
 13. Now click on confirm.
 
