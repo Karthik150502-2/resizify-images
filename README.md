@@ -275,6 +275,12 @@ gt submit
 
 
 
+
+
+
+
+
+
 ### Scenario 2
 
 **When to create a Stack?**
@@ -348,6 +354,10 @@ gt modify
 ```sh
 gt submit
 ```
+
+
+
+
 
 
 
