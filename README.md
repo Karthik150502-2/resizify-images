@@ -148,7 +148,7 @@ You need a partner’s app to reflect changes made in this new environment. Foll
 
 9. Click on continue
 
-![image](https://github.com/user-attachments/assets/f5431a26-f6ae-4615-9722-46855c49ea76)
+![image](https://github.com/user-attachments/assets/66ee255b-fb45-44ca-837d-ce9067b8aeb3)
 
 
 You have to follow Step 10, 11 and 12 only when you are creating your own app, when you clone from an existing app these settings are already set for you.
