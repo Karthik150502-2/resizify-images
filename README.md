@@ -164,7 +164,8 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 13. A dialog box with, an app url and redirection url will appear, copy them both.
 
-![image](https://github.com/user-attachments/assets/43919649-eccb-4b56-8690-abf73071efbf)
+![image](https://github.com/user-attachments/assets/0266faea-6741-449f-809f-b5de1fbf1a67)
+
 
 14. Go back to your partners dashboard, and select the app that you had created.
 
