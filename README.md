@@ -88,7 +88,8 @@ OR
 
 2. From the navbar, click on the “Create a new Development Environment“.
 
-![image](https://github.com/user-attachments/assets/6e82c8d2-c696-4076-931b-938104f8d6e5)
+![image](https://github.com/user-attachments/assets/247ae24d-d218-42ae-9bbc-8ae7a01a60ca)
+
 
 3. Give it a name and choose the environment which you would like to clone, for your new environment.
 
