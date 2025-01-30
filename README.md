@@ -82,7 +82,8 @@ OR
 
 1. Go to your gadget app, and select the project you want to clone
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/313cc66a-d36c-4c17-9e94-6131bc5bfaa1)
+
 
 
 2. From the navbar, click on the “Create a new Development Environment“.
