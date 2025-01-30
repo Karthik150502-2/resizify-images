@@ -1,5 +1,5 @@
 
-# How to setup Graphite and Github
+# Seting the project with Gadget, Graphite and Github.
 
 ## Prerequisites:
 -	Sign in to Graphite with a Github account, [Sign Up to Grahite](https://app.graphite.dev/activate)
