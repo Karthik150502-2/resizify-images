@@ -74,7 +74,7 @@ Go to Gadget.dev, and after signing up, Click on “New App” button
 
 OR
 
-### Cloning the development environment already existing project from Gadget. PS: 
+### Cloning the development environment of an already existing project from Gadget.
 
 > [!WARNING]
 > Avoid cloning from production environment.
@@ -199,6 +199,7 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 ![image](https://github.com/user-attachments/assets/d7e48797-0cbf-4be8-a381-f295c18a158d)
 
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/47d1ed25-4aa1-487c-96b7-8dc7346a4625)
 
 
 ## Part IV - Cloning the repo from Github and Steps to create branches and Pull Requests using Graphite locally.
@@ -304,7 +305,7 @@ gt submit
 > [!IMPORTANT]
 >**When to create a Stack?**
 
-When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
+When you have a large feature to work on, and you decide to break the work in small portions, you can create branches for each small feature adding up to become that one big feature you were working on.
 
 To Stack is to create a list of branches, that are build upon one another. You can easily navigate in your stack of branches, with `gt up`, `gt down`, to reach to the old and new changes you have made.
 
@@ -352,9 +353,9 @@ gt submit
 Submits all the branches as separate PRs stacked on top of one another.
 
 
-iii) To add some changes in the same branch, without creating a stack, after a PR has been created, simply sommit the changes using `gt modify`.
+iii) To add some changes in the same branch, without creating a stack, after a PR has been created, simply commit the changes using `gt modify`.
 
--  Make the changes you need to add.
+- Make the changes you need to add.
 
 - Add the files you have have changes/ or add files that have been modified.
 
@@ -367,6 +368,13 @@ gt add or gt add --all
 ```sh
 gt modify
 ```
+
+or
+
+```sh
+gt modify -m "some_message"
+```
+
 
 - Submit the changes to the exiting PR.
 
@@ -382,18 +390,15 @@ gt submit
 
 ## Part V – Working with Gadget locally, and Syncing with Gadget and local code. 
 
-After you have cloned the repo from github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa, as you make changes to either one of them.
+After you have cloned the repo from Github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa, as you make changes to either one of them.
 
 ### Steps
-1) To bring down the code from gadget locally.
-
-
-sync command
+1) To bring down the code from gadget locally, sync command;
 ```sh
-ggt dev ./<app-name> --app=<app-name> --env=<gadget-development-env-name> --allow-unknown-directory
+ggt dev ./<app-name> --app=<app-name> --env=<gadget-development-enviornment-name> --allow-unknown-directory
 ```
 
-This command brings start a hot module reload for you code in **local -> Gadget code**, and **Gadget code -> local**, meaning, after running this command, whatever changes you make in your local code, will reflect in your Gadget repo, and vice versa. With changes finally reflecting in your Admin dashboard app where you have your app installed. 
+This command starts a HMR (Hot Module Reload) for you code in **local -> Gadget code**, and **Gadget code -> local**, meaning, after running this command, whatever changes you make in your local code, will reflect in your Gadget repo, and vice-versa. With changes finally reflecting in your Admin dashboard app where you have your app installed. 
 
 Sometimes, when you have conflicting changes in your Gadget repo, and local code, after running the sync command,
 
