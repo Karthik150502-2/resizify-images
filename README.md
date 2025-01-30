@@ -204,7 +204,11 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 ![image](https://github.com/user-attachments/assets/b0c6dd5a-55ee-45bb-b062-461abdb4eed7)
 
-<img width="795" alt="image" src="https://github.com/user-attachments/assets/3c113b0b-bc86-4dfa-9852-032ebda82d5c" />
+
+
+
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/0fb899f7-f55d-4f21-97ba-ee9402a7c269)
+
 
 
 
