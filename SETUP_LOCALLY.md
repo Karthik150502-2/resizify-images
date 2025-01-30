@@ -1,5 +1,5 @@
 How to setup Graphite and Github
-	Prerequisites:
+Prerequisites:
 -	Sign in to Graphite with a Github account, https://app.graphite.dev/activate
 -	Create an Account with Gadget
 
@@ -64,11 +64,17 @@ b) Cloning the development environment already existing project from Gadget. PS:
 5.	You need to copy all the setting from your cloned environment, since the configurations would be reset when you clone a new environment.
 -	The environment variables, go to the gadget development env of your app, and from settings > Environment variables, copy the variables to your environment.
 
+You need a partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
+
+Except for "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", reference: heymantle.com/docs/
+
+![image](https://github.com/user-attachments/assets/6850022e-8def-4cd3-a409-ab2e2ad6b1fa)
 
 -	The Shopify app connections.
--	Any connections if present.
+<img width="910" alt="image" src="https://github.com/user-attachments/assets/6a071c80-7192-4870-817d-86ad2e5b914c" />
+
+-	Any partner's app connection.
 You need a partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
--  Except for "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of "GADGET_PUBLIC_MANTLE_APP_ID" and "MANTLE_API_KEY", reference: heymantle.com/docs/
     
 
 Part 3 - Connect your gadget app with the partner’s app.
@@ -162,20 +168,29 @@ Using Graphite locally to create PR's and Stack PRs
        ii) When to create a Stack? 
 	   When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
 	   To Stack is to create a list of branches, that are build upon one another. You can easily navigate in your stack of branches, with gt up, gt down, to reach to the old and new changes you have made.
+
 	        a) Checkout to dev branch and make changes upon the dev branch, initially,
 			    - Make the changes.
 			    - gt add      [Add the files to which you have made the changes.]
 			    - gt create -m "Message 1" branch_name_1
+  
 	        b) Adding a new Stack.
 			    - After gt create, now you have a new branch, for the changes you have made recently.
+			    - Without checking out the dev branch, stays in the same branch.
 			    - Make some more changes based on the need.
 			    - gt add      [Add the files to which you have made the changes.]
 			    - gt create -m "Message 2" branch_name_2
+
             c) You can follow this steps for adding more stacks on one another.
+	
 			d) And finally, submit the PR. 
 			    - gt submit      [To submit all the PRs]
   
-
+    c) To add some changes in the same branch, without creating a stack, after a PR has been created.
+	    i)   Make the changes you need to add.
+		ii)  gt add/ gt add --all        [Add the files you have have changes/ or add files that have been modified]
+		iii) gt modifyto add the changes to the current branch.
+		iv)  gt submit        [Adds the changes to the existing pull request.] 
 
 Part 4 – Working with Gadget locally, and Syncing with Gadget and local code. 
 
