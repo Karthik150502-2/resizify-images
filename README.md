@@ -126,7 +126,7 @@ You need a partner’s app to reflect changes made in this new environment. Foll
 
 ![image](https://github.com/user-attachments/assets/6051105b-0f12-46fd-96d2-35a06cad3f41)
 
-![image](https://github.com/user-attachments/assets/e8f6fbff-a1d8-43a8-a80c-d0f41503e815)
+![image](https://github.com/user-attachments/assets/2254f26a-8615-4a76-86f4-73ac47be271f)
 
 ![image](https://github.com/user-attachments/assets/24330a58-e859-4fff-bcd5-baef14b4c732)
 
