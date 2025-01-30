@@ -106,7 +106,8 @@ OR
 
 -	The Shopify app connections.
 
-<img width="910" alt="image" src="https://github.com/user-attachments/assets/6a071c80-7192-4870-817d-86ad2e5b914c" />
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/fbbb8cfe-6687-4d85-a531-8889d6240021" />
+
 
 -	A partner's app connection.
 You need a partner’s app to reflect changes made in this new environment. Follow the next steps to connect it with Shopify.
