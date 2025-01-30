@@ -110,7 +110,8 @@ OR
 
 -	The Shopify app connections.
 
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/fbbb8cfe-6687-4d85-a531-8889d6240021" />
+<img width="1100" alt="406020549-d7e48797-0cbf-4be8-a381-f295c18a158d" src="https://github.com/user-attachments/assets/5635f6cc-b645-4adc-a225-8c589a2b5bbb" />
+
 
 
 -	A partner's app connection.
