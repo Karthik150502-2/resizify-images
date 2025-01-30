@@ -47,6 +47,7 @@ shown (your CLI auth token will be pre-filled). Paste it in the terminal and run
 
 ### Steps
 1)	Install gadget CLI to work with gadget locally.
+
 ```sh
 npm install -g ggt@latest
 ```
@@ -96,7 +97,9 @@ OR
 5.	You need to copy all the settings from your cloned environment, since the configurations would be reset when you clone a new environment.
 - The environment variables, go to the gadget development env of your app, and from **settings > Environment variables**, copy the variables to your environment.
 
-- Except for **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, reference: [Heymantle Docs](heymantle.com/docs/)
+- Except for **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, reference: [Heymantle Docs](https://heymantle.com/docs)
+
+
 
 ![image](https://github.com/user-attachments/assets/6850022e-8def-4cd3-a409-ab2e2ad6b1fa)
 
