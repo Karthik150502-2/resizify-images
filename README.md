@@ -199,7 +199,8 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 ![image](https://github.com/user-attachments/assets/d7e48797-0cbf-4be8-a381-f295c18a158d)
 
-![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/47d1ed25-4aa1-487c-96b7-8dc7346a4625)
+![406020549-d7e48797-0cbf-4be8-a381-f295c18a158d](https://github.com/user-attachments/assets/6270964f-4842-48e0-bd3a-198c52f17997)
+
 
 
 ## Part IV - Cloning the repo from Github and Steps to create branches and Pull Requests using Graphite locally.
