@@ -1,8 +1,8 @@
 
-# Seting the project with Gadget, Graphite and Github.
+# Setting the project with Gadget, Graphite and Github.
 
 ## Prerequisites:
--	Sign in to Graphite with a Github account, [Sign Up to Grahite](https://app.graphite.dev/activate)
+-	Sign in to Graphite with a Github account, [Sign Up to Graphite](https://app.graphite.dev/activate)
 -	Create an Account with Gadget [Sign Up to Gadget](https://gadget.dev/)
 
 
@@ -12,8 +12,11 @@
 1)	As of v1.0.0, Graphite requires a minimum git --version of 2.38.0.
 
 ### Steps
-1)	With MacOs and Linux;
+1)	On MacOs and Linux;
+
+```sh
 brew install withgraphite/tap/graphite
+```
 
 ```sh
 gt --version
@@ -21,20 +24,23 @@ gt --version
 
 
 2)	Install with npm;
+
+```sh
 npm install -g @withgraphite/graphite-cli@stable
+```
 
 ```sh
 gt --version
 ```
 
-3)	Signin to Graphite
+3)	Sign in to Graphite
 Copy the auth token command
 
 ```sh
 gt auth --token <your_cli_auth_token>
 ```
 
-shown (your CLI auth token will be pre-filled for you). Paste it in the terminal and run the command
+shown (your CLI auth token will be pre-filled). Paste it in the terminal and run the command
 
 
 ## Part II - Set up the Gadget and Shopify App
@@ -45,7 +51,7 @@ shown (your CLI auth token will be pre-filled for you). Paste it in the terminal
 npm install -g ggt@latest
 ```
 
-### Create a new Gadget app and connecting it to Shopify
+### Create a new Gadget app and connect it to Shopify
 
 2. Setting up your App with gadget,
 Go to Gadget.dev, and after signing up, Click on “New App” button
@@ -60,14 +66,17 @@ Go to Gadget.dev, and after signing up, Click on “New App” button
 
 5. Select the template “Shopify embedded react app”.
 
-6. Select language Javascript/ Typescript
+6. Select language - Javascript/ Typescript
 
 ![image](https://github.com/user-attachments/assets/4123ca22-090f-4d5a-af08-d3a5eae150ec)
 
 
 OR
 
-### Cloning the development environment already existing project from Gadget. PS: Avoid cloning from production environment.
+### Cloning the development environment already existing project from Gadget. PS: 
+
+> [!WARNING]
+> Avoid cloning from production environment.
 
 1. Go to your gadget app, and select the project you want to clone
 
@@ -77,17 +86,17 @@ OR
 
 ![image](https://github.com/user-attachments/assets/6e82c8d2-c696-4076-931b-938104f8d6e5)
 
-3. Give it a name and chose the environment which you would like to clone, for your new environment.
+3. Give it a name and choose the environment which you would like to clone, for your new environment.
 
 ![image](https://github.com/user-attachments/assets/7526ea5d-149a-40ea-84ae-0d453f8ec91c)
 
 
 4. Now you have your new gadget environment to work with.
 
-5.	You need to copy all the setting from your cloned environment, since the configurations would be reset when you clone a new environment.
+5.	You need to copy all the settings from your cloned environment, since the configurations would be reset when you clone a new environment.
 - The environment variables, go to the gadget development env of your app, and from **settings > Environment variables**, copy the variables to your environment.
 
-- Except for **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, reference: [Heymantle Docc](heymantle.com/docs/)
+- Except for **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, for this you need to create new dev app link from Heymantle using the Client Id, and Client Secret of the partner's app, and they it would spit out a Mantle Public App ID and an API key whose value you would need to replace with the values of **"GADGET_PUBLIC_MANTLE_APP_ID"** and **"MANTLE_API_KEY"**, reference: [Heymantle Docs](heymantle.com/docs/)
 
 ![image](https://github.com/user-attachments/assets/6850022e-8def-4cd3-a409-ab2e2ad6b1fa)
 
@@ -97,7 +106,8 @@ OR
 <img width="910" alt="image" src="https://github.com/user-attachments/assets/6a071c80-7192-4870-817d-86ad2e5b914c" />
 
 -	A partner's app connection.
-You need a partner’s app which will reflect the changes you make in this new environment, you can follow the next steps to connect to partner's app in shopify.
+You need a partner’s app to reflect changes made in this new environment. Follow the next steps to connect it with Shopify.
+
 
 
 
@@ -127,7 +137,7 @@ You need a partner’s app which will reflect the changes you make in this new e
 
 ![image](https://github.com/user-attachments/assets/f5431a26-f6ae-4615-9722-46855c49ea76)
 
-8. Scroll down, and you will two input boxes to enter Client Id, and the Client Secret. Paste the Client Id and the Client secret that you had copied before here.
+8. Scroll down, and you will see two input boxes to enter Client Id, and the Client Secret. Paste the Client Id and the Client secret that you had copied before here.
 
 9. Click on continue
 
@@ -148,7 +158,7 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 ![image](https://github.com/user-attachments/assets/43919649-eccb-4b56-8690-abf73071efbf)
 
-14. Go back to you partners dashboard, and select the app that you had created.
+14. Go back to your partners dashboard, and select the app that you had created.
 
 15. From the options in menu at left, click on configurations.
 
@@ -158,7 +168,7 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 17. And then click on Save and Release on the top.
 
-18. Now Click, on the overview from the options in the left menu.
+18. Now click on the overview from the options in the left menu.
 
 19. And from the **“Test your app”** section click on **“Select store”** button.
 
@@ -166,7 +176,7 @@ You have to follow Step 10, 11 and 12 only when you are creating your own app, w
 
 20. Click on the create a new store in the top.
 
-21. And give a name for the store
+21. And give a name to the store
 
 22. For the Build version, select **“Developer preview”**, and from the options given, select 
 **“Extended Variants”**.
@@ -188,7 +198,7 @@ Now you have a developmental store for yourself, where you can test and play aro
 
 
 
-## Part IV - Cloning the repo from Github and Steps to create a branches and and Pull Requests using Graphite locally.
+## Part IV - Cloning the repo from Github and Steps to create branches and Pull Requests using Graphite locally.
 
 ### Steps
 
@@ -204,7 +214,7 @@ git clone https://github.com/Shopvana/Resizify.git
 git branch -av
 ``` 
 
-3. Checkout and track the remote branch from the github 
+3. To create and switch to a local dev branch tracking origin/dev, run:
 
 ```sh
 git checkout -b dev origin/dev
@@ -227,19 +237,22 @@ git pull origin dev
 
 1) Creating PR's locally from Graphite
 
-- Lists out all the repos that you have locally, and you can select the branch you need to get on interactively from the CLI, and always start from dev branch, when you have to new feature to work on that is not related to one another
+- Use Graphite's interactive CLI to switch branches:
 
 ```sh
 gt checkout 
 ```
 
-**There are two scenarios, based on which you have to decide wether you need to create a separate branch or a Stack of branches having changes corelating to one another.**
+- Lists out all the repos that you have locally, and you can select the branch you need to get on interactively from the CLI
+
+
+**There are two scenarios, based on which you have to decide whether you need to create a separate branch or a Stack of branches having changes correlating to one another.**
 
 
 > [!IMPORTANT]
 > **When to create separate branches?** 
 
-When you have to new feature to work on that is completely not related to one another/ is a independent feature.
+When you have a new feature to work on that is completely not related to one another/ is a independent feature.
 
 i) Checkout to dev branch and make changes upon the dev branch. 
 
@@ -290,7 +303,7 @@ gt submit
 
 When you have a large feature to work on, and you decide to break the work in small portions, have branches for each small feature adding up to become that one big feature you were working on.
 
-To Stack is to create a list of branches, that are build upon one another. You can easily navigate in your stack of branches, with gt up, gt down, to reach to the old and new changes you have made.
+To Stack is to create a list of branches, that are build upon one another. You can easily navigate in your stack of branches, with `gt up`, `gt down`, to reach to the old and new changes you have made.
 
 i) Checkout to dev branch and make changes upon the dev branch, initially;
 - Make the changes, Add the files to which you have made the changes.
@@ -366,7 +379,7 @@ gt submit
 
 ## Part V – Working with Gadget locally, and Syncing with Gadget and local code. 
 
-After you have cloned the repo from github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa, as you make changes ni either one of them.
+After you have cloned the repo from github, and checked out to the remote dev branch of the repo. You can follow the below step to sync your local code to Gadget, and vice versa, as you make changes to either one of them.
 
 ### Steps
 1) To bring down the code from gadget locally.
